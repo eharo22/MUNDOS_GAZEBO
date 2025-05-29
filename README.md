@@ -7,11 +7,11 @@ REQUISITOS
 
 1) Descargar las carpetas.
    
-3) Dentro de cada carpeta existe: un SDF del mundo y una carpeta con el DAE (malla) y textura del entorno 3D.
+2) Dentro de cada carpeta existe: un SDF del mundo y una carpeta con el DAE (malla) y textura del entorno 3D.
   ![image](https://github.com/user-attachments/assets/55b92da9-f89f-494c-b624-ee851707dfd3)
 
 
-4) El SDF y la carpeta DAEs del mundo deben ser movidas hasta la dirección:
+3) El SDF y la carpeta DAEs del mundo deben ser movidas hasta la dirección:
    
    ```
    /home/<user>/PX4-Autopilot/Tools/simulation/gz/worlds
@@ -31,12 +31,12 @@ REQUISITOS
 ```
 
    
-5)  Ingresar mediante un editor al sdf del mundo. En la sección del modelo del terreno existen dos líneas que
+4)  Ingresar mediante un editor al sdf del mundo. En la sección del modelo del terreno existen dos líneas que
      comienzan con "uri", una para la parte visual y potra para la colisión del entorno 3D. Editar estas líneas
     de modo que esté el nombre de usuario en lugar de <user>
     ![image](https://github.com/user-attachments/assets/7ae67c6f-5fae-4fd2-9abd-534843592e88)
 
-6) Una vez realizado este cambio se puede generar la simulación del mundo a tarvés de PX4 con:
+5) Una vez realizado este cambio se puede generar la simulación del mundo a tarvés de PX4 con:
    
    ```
    PX4_GZ_WORLD=<nombre_de_tu_mundo> make px4_sitl <modelo_de_dron_deseado>
