@@ -14,7 +14,7 @@ REQUISITOS
    /home/<user>/PX4-Autopilot/Tools/simulation/gz/worlds
    
    La estructura de este folder debe ser:
-   /worlds
+   '''/worlds
      |___mundo1.sdf
      |___mundo2.sdf
      |___DAES_mundo1
@@ -23,7 +23,7 @@ REQUISITOS
      |___DAES_mundo2
      |         |___daemundo2.dae
      |         |___texturamundo2.png
-     ...
+     ...'''
    
 6)  Ingresar mediante un editor al sdf del mundo. En la sección del modelo del terreno existen dos líneas que
      comienzan con "uri", una para la parte visual y potra para la colisión del entorno 3D. Editar estas líneas
