@@ -24,6 +24,7 @@ REQUISITOS
      |         |___daemundo2.dae
      |         |___texturamundo2.png
      ...'''
+   <pre> ```text /worlds |___mundo1.sdf |___mundo2.sdf |___DAES_mundo1 | |___daemundo1.dae | |___texturamundo1.png |___DAES_mundo2 | |___daemundo2.dae | |___texturamundo2.png ``` </pre>
    
 6)  Ingresar mediante un editor al sdf del mundo. En la sección del modelo del terreno existen dos líneas que
      comienzan con "uri", una para la parte visual y potra para la colisión del entorno 3D. Editar estas líneas
