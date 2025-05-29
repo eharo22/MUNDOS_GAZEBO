@@ -33,4 +33,7 @@ REQUISITOS
     ![image](https://github.com/user-attachments/assets/7ae67c6f-5fae-4fd2-9abd-534843592e88)
 
 7) Una vez realizado este cambio se puede generar la simulación del mundo a tarvés de PX4 con:
-   ```PX4_GZ_WORLD=<nombre_de_tu_mundo> make px4_sitl <modelo_de_dron_deseado>```
+   
+   ```
+   PX4_GZ_WORLD=<nombre_de_tu_mundo> make px4_sitl <modelo_de_dron_deseado>
+   ```
