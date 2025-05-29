@@ -14,16 +14,6 @@ REQUISITOS
    /home/<user>/PX4-Autopilot/Tools/simulation/gz/worlds
    
    La estructura de este folder debe ser:
-   '''/worlds
-     |___mundo1.sdf
-     |___mundo2.sdf
-     |___DAES_mundo1
-     |         |___daemundo1.dae
-     |         |___texturamundo1.png
-     |___DAES_mundo2
-     |         |___daemundo2.dae
-     |         |___texturamundo2.png
-     ...'''
 ```
 /worlds
    |___mundo1.sdf
@@ -43,4 +33,4 @@ REQUISITOS
     ![image](https://github.com/user-attachments/assets/7ae67c6f-5fae-4fd2-9abd-534843592e88)
 
 7) Una vez realizado este cambio se puede generar la simulación del mundo a tarvés de PX4 con:
-   PX4_GZ_WORLD=<nombre_de_tu_mundo> make px4_sitl <modelo_de_dron_deseado>
+   ```PX4_GZ_WORLD=<nombre_de_tu_mundo> make px4_sitl <modelo_de_dron_deseado>```
