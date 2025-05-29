@@ -11,7 +11,9 @@ REQUISITOS
   ![image](https://github.com/user-attachments/assets/55b92da9-f89f-494c-b624-ee851707dfd3)
 
 4) El SDF y la carpeta DAEs del mundo deben ser movidas hasta la dirección:
+   ```
    /home/<user>/PX4-Autopilot/Tools/simulation/gz/worlds
+   ```
    
    La estructura de este folder debe ser:
 ```
